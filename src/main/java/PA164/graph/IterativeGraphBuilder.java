@@ -3,7 +3,6 @@ package PA164.graph;
 import PA164.data.Sentence;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class IterativeGraphBuilder {
@@ -49,7 +48,6 @@ public class IterativeGraphBuilder {
     }
 
     private List<List<String>> mergeSentences(List<Sentence> sentenceList) {
-        Collections.shuffle(sentenceList);
         List<List<String>> words = new ArrayList<>();
         for (Sentence sentence : sentenceList) {
             words.add(sentence.getCleanedWordList());
