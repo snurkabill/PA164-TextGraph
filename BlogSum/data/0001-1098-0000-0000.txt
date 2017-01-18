@@ -1,0 +1,24 @@
+A very interesting lawsuit was handed a very interesting judgment the other day in Colorado, in the case of a woman, Suzanne Shell, who filed suit against an internet search engine spider which crawled her site, indexing, as these spiders do, its contents.
+As discussed over at Information Week, the suit alleges everything from breaking and entering, theft, racketeering, and breach of contract.
+It all got thrown out of court, except the breach of contract part.
+Huh.
+Well, she has a warning on her site, profanejusticeorg that entering it and clicking on links etc constitutes acceptance of her terms of service, which include not indexing it or downloading the contents, etc.
+You get the idea.
+She sounds like something of a s**t diturber, anyway, refusing at one point to surrender a 38 in her carry-on, etc.
+Don't get me wrong, I am gaining growing respect for the disturbers out there in this strange world.
+But, you know, pick your battles.
+But to the issue: *do* internet search sites have the right, no matter what, to index you and send readers your way.
+Or index you and use the information for something else.
+Is it a bad thing to respect someone's declared intent for you to not do that.
+I think the whole argument about whether computer programs or agents or spiders or whatever are sentient is stupid.
+They are not, but someone hit that return key somewhere, and they are the ones responsible.
+There is an informal agreement that robots should obey the restrictions in a robotstxt file on a site, but it's no more than that, an informal agreement.
+So that's not a good argument against the suit.
+What happens if she wins this one all the way.
+Then, any time a site wanted to avoid being indexed, they could simply declare this on the page.
+The vagaries of our language being what they are, it would be hard to program a robot to be sensitive to any such disclaimers anywhere on a page.
+But, supposing that can be overcome, what uses might this be put to.
+I suppose those might include online stores that don't want their prices advertised elsewhere, because they are so high.
+It also might make it easier to protect copyrighted material.
+It certainly would put something of a damper, in the end, on the open and free nature of the web.
+But perhaps our diligent readers can think of other evil to do with such a new restriction.

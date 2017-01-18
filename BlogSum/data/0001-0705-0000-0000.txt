@@ -1,0 +1,28 @@
+It is Friday, and time for some fun.
+This time the fun is in a good cause.
+(Well, actually, it always is, but ).
+I was touring our Senior Labs here just half a hour ago, as I'm part of a committee looking at what we're going to do in the future with regards purchasing new equipment, syllabus issues, etc (these are instructional labs).
+Standard stuff of the professorial day that I won't bore you with further.
+I was wandering around looking at the equipment (I always get a bit giddy with excitement when I go into labs I really love doing experiments and building things in general ) when my eyes fell upon a printout of a chart reminding students of the colour coding scheme for determining the properties of a resistor.
+For those of you who never had the pleasure of building electronic circuits, basically there are bands of colour put in given sequence on the resistor (and electronic component) that allows one to determine how much electrical resistance it has at a glance.
+Much better than writing numbers onto the side, or something like that, if you take into account the size of the devices, durability, etc.
+Each colour corresponds to a number and you can reconstruct the value of the resistance in no time, given practice.
+When I was a kid, bent over a soldering iron in my room for way too many hours, I learned from a book that the way of remembering the sequence of colours (black, Brown, Red, Orange, Yellow, Green, Blue, Violet, Grey, White) was to use a mnemonic.
+Unfortunately the mnemonic was: Black Boys Rape Only Young Girls But Virgins Go Without.
+Sigh.
+Anyway, I was excited to see that there d been some progress, and somebody had made the effort to make a change, but then I read it: Bad Boys Ravish Only Young Girls But Violet Gives Willingly.
+Yep.
+A quick look on the web confirms that this is till the dominant thing being taught out there.
+I kid you not.
+21st Century and all.
+Anyway, I pointed this out to my colleagues, who said well if you can think of a better one that is just as catchy, people will use it  (I should point out here that all professors present were in agreement that this was not the best material to have in a modern teaching lab).
+So a deeper look on Google (ok, five minutes I've got another meeting to run t0) showed that there are some efforts out there to do better, coming up with a good mnemonic which is memorable (a bit of shock value helps) and fun, but some of the ones I found, while pretty good, fall a bit short.
+For example:.
+Black Bugs Ruined Our Young Garden But Venus Flytraps Grow Well.
+Big Bears Run Over Your Gladiola Bed Vexing Garden Worms.
+So you know what I'm going to ask, right.
+Can't Cosmic Variance and its collection of clever, hip and witty readers come up with something better.
+Let the games begin.
+And Remember, this is in a good cause, right.
+Once we've come up with good ones, let's go tear down those posters in our own labs and corridors and replace them with the better ones (after appropriate discussion at commitee, etc, etc, of course ).
+-cvj.

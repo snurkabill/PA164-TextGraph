@@ -1,0 +1,19 @@
+In addition to the more prominent work we've done to enable international scenarios (like adding support for International Domain Names), Internet Explorer 7 updates the available values for the Accept-Language header.
+Accept-Language is an HTTP header sent to the server by the browser to indicate the user's language and locale.
+As an example, the Accept-Language header sent by the browser of a native French speaker in France and fluent in German might be: Accept-Language: fr-FR,de-DE;q=05.
+A server, upon receiving such a header, should return French content if available, or German content if French content is not available.
+By default, the Accept-Language header is calculated based on the Windows default locale, and it can be set on the Customize your settings page shown after IE7 is first installed.
+Users may specify additional languages using the Internet Control Panel.
+To see the list of available language/locales, click the Tools button, then click Internet Options.
+On the General tab, click the Languages button to see the Language Preference dialog.
+(The languages chosen here are also used to determine which character sets should be displayednatively in the address bar).
+In IE6, most of the choices in the Language Preference list specified a locale-neutral two letter code.
+For instance fr was sent for French (France) , and ja sent for Japanese .
+Longer codes were only used when a language is commonly spoken in another country or locale-- for instance fr-CA was available for French-speaking Canadians.
+For Internet Explorer 7, a change was made such that Internet Explorer will send the full language/locale pair for each locale.
+IE7 will send fr-FR for French (France) and de-DE for German (Germany) .
+This change enables web servers to more easily target content for a specific language and locale.
+If a given server is only interested in the user's language and not the locale, it can ignore the locale portion by simply truncating the code at the first dash.
+We hope this small change will help web developers on their quest to build ever-smarter web applications.
+Eric Lawrence Program Manager Edit:.
+replacing Accept-Language = fr-FR,de-DE;q=05 with Accept-Language : fr-FR,de-DE;q=05.

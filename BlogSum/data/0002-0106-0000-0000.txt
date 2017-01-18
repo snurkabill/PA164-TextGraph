@@ -1,0 +1,15 @@
+After some very long days and nights, the IE delegation is back from Vegas.
+Some sessions I found especially interesti.
+Alex S Scott Stender Attacking Web Servi.
+Jeremiah Grossman Phishing with Super Baitta.
+Johnny Long Google Hacking for Penetration Testers.
+They did a great job of highlighting the challenges of reconciling ease of use and security.
+Even more valuable than the briefings were the informal meetings with security researchers and other members of the incredibly diverse security community.
+I want to thank all of the folks that engaged us in discussions and were willing to share their thoughts on security and IE.
+It's encouraging to see that we are on the right track with our process for secure software developmentand in sync with the industry's best practices.
+Many of the techniques discussed at Black Hat, such as threat modeling or fuzz-testing, have been part of our process for some time now.
+At the same time, we're keenly aware that we can't let up in our efforts at improving the security of our products, and making security an integral part of our development culture.
+The buzz was of course all about Michael Lynn's disclosureof a vulnerability in Cisco IOS.
+The way this issue was handled was sub-optimal , to say the least.
+To me, it confirms the importance of working closely with the security community which is what Black Hat was all about.
+- Patrick.

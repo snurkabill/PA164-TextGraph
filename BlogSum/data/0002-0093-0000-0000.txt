@@ -1,0 +1,14 @@
+I just wanted to post a quick follow up to Dean's post about RSS in Longhorn.
+My name is Sean Lyndersay, and I'm a senior program manager on the RSS team.
+After Dean's announcement, we turned on our RSS Team Blog, and kicked things off with a post about the Simple List Extensions.
+The RSS Team Blog will be the place to go for all things related to the RSS platform features in Longhorn.
+If the post has something to do with IE, then we'll cross-post as appropriate.
+The other great place for feedback is the Longhorn RSS wiki, hosted on Channel 9.
+One more thing: During the Gnomedex keynote (and the Channel 9 video), Dean and Amar showed a couple of sample applications which represent some ideas we have about how developers can use the RSS platform capabilities to enable new scenarios.
+The point I want to make is that these demos do not represent product plans.
+They were just ideas that the RSS team cooked up to show the value of the platform.
+So, for all your IE information, keep an eye on this blog.
+For more RSS information, keep an eye on the RSS team blog.
+- Sean PS.
+Dean's last name is Hachamovitch seems like a lot of news outlets got this wrong.
+Dean is accustomed to people getting his last name wrong, but I thought I d just point it out.

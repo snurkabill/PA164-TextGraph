@@ -1,0 +1,17 @@
+We received reports this morning that a security researcher had found a bug in the IE7 Beta 2 Preview release.
+This issue reportedly crashes IE and is exploitable to execute arbitrary code on the user's computer.
+Naturally, we take the security of IE and our users safety very seriously, so we investigated immediately.
+We did confirm that the bug crashes IE.
+However, we did not find that the bug was exploitable by default to elevate privilege and run arbitrary code.
+This bug had already been found during our code review and analysis that is a mandatory part of our development process; it was scheduled to be fixed before our next public release.
+We do not believe this bug is easily exploitable, and as an extra defense, the /GS flagalso catches the overrun.
+This is a compiler flag that tells Windows to watch for some classes of buffer overflows.
+If Windows sees a problem, it kills the application, in this case IE, instead of running the exploit code.
+While this is certainly not our primary line of protection, it does offer defense-in-depth to help keep our customers secure.
+At this time, we are not aware of any active exploits taking advantage of this bug.
+We will continue to monitor the situation and evaluate our response.
+Finally, I d like to reiterate the importance of the responsible disclosure of security issues.
+We firmly believe that privately disclosing security issues to software vendors is the best way to keep the users of the world secure.
+To report a security issue against any Microsoft product, please contact secure@microsoftcom.
+For other feedback on IE7, please use the methods Jason mentioned yesterday.
+- Tony Chor.

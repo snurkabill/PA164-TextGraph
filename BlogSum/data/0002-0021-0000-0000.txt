@@ -1,0 +1,13 @@
+Hi, I'm Christopher Vaughan, and I'm the lead project manager for the Internet Explorer team.
+I've worked on IE on and off since the IE 30 days, and have been involved in every major Windows release since Windows 95.
+I work with Dean, Scott, Tony, Dave, and the others who have or will be posting here to make sure that the IE team is working on the right things and at the right times.
+I wanted to drop a quick note to make sure people knew about an update to our user agent string in Windows XP Service Pack 2.
+We've added "SV1" to the UA string so it'll start looking something like this: HTTP_USER_AGENT :Mozilla/40 (compatible; MSIE 60; Windows NT 51; SV1 ; NET CLR 114322; NET CLR 103705) This will let site authors know that they're being visited by someone who's running an IE browser on the latest, most secure Microsoft platform.
+Right now only XPSP2 has this token, but soon you'll see this token show up on other platforms as we bring our security enhancements to them.
+SV1 stands for "Security Version 1" by the way.
+We're proud of the security work that we've done in XPSP2 and wanted to be sure that site authors had some way to differentiate users running the latest version of IE.
+Also, I'd like to remind folks that there's an online chat scheduled with members of the IE team on September 9th.
+See the chat schedule for details.
+See you there.
+Till next time.
+-Christopher.

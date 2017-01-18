@@ -1,0 +1,18 @@
+Hi my name is Markus Mielke and I am a Program Manager working with Chris Wilsonon CSS and platform support.
+Today, I would like to talk about DOM Inspectors for IE.
+For analyzing web pages and drilling down into problems on a page it becomes more and more important to have a DOM Inspector handy.
+Not a full fledged debugger but something quick that allows a user to explore their HTML document and understand everything going on with a specific element.
+For example, a window will display a tree view of the document.
+As the user clicks in the tree view, the corresponding element in the document will be outlined.
+Next to the tree view will be detailed information about the element attributes set, styles etc.
+FireFox, for example, enables a DOM inspector at install time.
+Since IE does not have an inspector natively integrated I hear a lot of rumblings in the communityexpressing a need for a DOM inspector in IE.
+The truth is that there already are a wide variety of DOM Inspectors out for IE.
+One of our best kept secrets is our extensibility story that enables 3 rd parties to build rich add-ons on top of IE (go check out marketplace).
+One of the obvious drawbacks is that these add-ons are harder to discover than if they would come in the box.
+On the other hand they provide the freedom to choose the one that fits your needs best.
+Go test them out for yourselves and be the jud.
+DOM Inspector http://wwwdownloadcom/IE-DOM-Inspector/3000-2378_4-10366322htmltag=lst-.
+DOM SPY http://wwwdownloadcom/DOMSpy/3000-2048_4-10374297htmltag=lst-.
+Web Accessibility toolbar http://wwwnilsorgau/ais/web/resources/toolb.
+IEDocMon: http://wwwcheztaborcom/IEDocMon/indexhtm.

@@ -1,0 +1,14 @@
+My name is John Hrvatin and I'm the Program Manager for Internet Explorer setup.
+That includes installers for security updates as well as integrating IE into Windows setup for future releases.
+In the past, IE has used IExpress as its installer.
+With the release of security update MS04-038 in October 2004, however, IE has begun using the Windows Package Installer, or updateexe , for all IE security updates and hot fixes on the following platforms: Windows 2000 (all service pack levels) Windows XP (all service pack levels) Windows Server 2003 (all service pack levels).
+For security updates and hot fixes on all other platforms as well as existing packages like IE 6 SP1 (we're not rebuilding these), we will continue to use IExpress.
+We made this switch to create a more common install experience across Microsoft products and Windows components in particular, as updateexe is the standard Windows installer.
+The increased consistency benefits IT administrators by standardizing the user experience, including command-line switches and the location to verify installation.
+In addition, all users will benefit from this move because of updateexe features like respect of file versions and integration with system restore along with continued improvements going forward like Watson integration for non-critical failures.
+Descriptions of all command-line switches, such as the rather popular /quiet /norestart , are documented in this article: Command-Line switches for Windows software update packages.
+Command-line switches are also detailed in the security bulletin posted on Microsoftcom along with each security update (you can see the most recent one at http://wwwmicrosoftcom/technet/security/bulletin/ms04-040mspx).
+For more general information about updateexe you can read Inside Updateexe - The Package Installer for Windows and Windows Components.
+For information on IExpress switches, see Command-Line Switches for IExpress Software Update Packages.
+Thanks for participating in the IEBlog.
+John.

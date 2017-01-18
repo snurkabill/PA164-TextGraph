@@ -1,0 +1,26 @@
+With the delivery of RC 1 of Windows Server 2003 Windows x64 Client last month, we shipped not one but two browsers with the OS: a 32- and 64-bit version of IE6 for Windows Server 2003 SP1/x64.
+We had to make a choice with the 64-bit client as to which browser, the 32-bit or 64-bit, would be the default.
+Compatibility, performance, and interoperability all played a part in our decision, but ultimately our decision was swayed by the lack of 64-bit native controls.
+We found that in our own every day use of the 64-bit client, the 64-bit browser was difficult to use because web sites hadn't authored common controls for 64-bit clients.
+So for now, users who run the 64-bit client will be running the 32-bit browser.
+Going forward, it's important for control vendors to start taking the 64-bit OS seriously.
+When Longhorn ships, I personally think it would be a shame if we had to make the same decision again.
+I encourage all control authors to take a look at the various 64-bit capable compilers and make sure that their web sites handle browsers of various bitness as easily as, say, they handle different browsers.
+That said, the 64-bit browser is available in the 64-bit client.
+Here's a list of which version of our browser gets launched and under which circumstances:.
+UI entry points that invoke 32-bit IE:.
+- Pinned Internet slot at top of Start menu.
+- e on desktop (Internet shell namespace).
+- Set Program Access Defaults default web browser.
+- Start menu All Programs shortcut to 32-bit IE labeled as Internet Explorer (32-bit).
+- Quick launch bar.
+- File associations UI entry points that invoke 64-bit IE:.
+- Start menu All Programs shortcut to 64-bit IE labeled as Internet Explorer (64-bit) Non-UI entry points:.
+- In-proc COM servers follow the bitness of the invoker.
+- API (ie ShellExecute() iexploreexe ) will invoke 32-bit IE.
+- Out-of-proc programmable COM servers (ie a host app that CoCreates CLSID_Internet Explorer) will by default follow the bitness of the invoker.
+Clients have the ability to modify this behavior by passing one of two new dwClsContext flags to CoCreateInstance().
+CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER tell COM to prefer the LocalServer32 registration in the 32-bit or 64-bit side of the registry, respectively.
+Almost all of these defaults can be changed by users or administrators by toggling switches in the registry.
+We'll get a complete list of those registry keys published soon and when they're up we'll let you know where they are.
+-Christopher.

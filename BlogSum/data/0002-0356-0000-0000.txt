@@ -1,0 +1,14 @@
+Hi, I'm B Ashok, the Product Unit Manager for Web Development Tools.
+As mentioned in my earlier postlast summer, we have removed the DHTML Editing Control from Windows Vista as part of making the operating system more secure.
+One application that used the DHTML Editing Control in the past was OWA (Outlook Web Access).
+We have issued a required updateto both Exchange 2000 and 2003 that enables OWA support for IE7 in Windows Vista.
+However if your server does not have this update applied, you may experience the inability to compose and edit e-mail messages on OWA when running IE7 in Windows Vista.
+When this happens, you will see a red x in place of your e-mail message body.
+The Exchange team has a good blog postwhich explains the issue in more detail, and describes how to update your Exchange 2000/2003 server to remedy this issue.
+The update does not require a reboot of the Exchange server and will fully enable OWA to work for clients using IE7 in Windows Vista.
+If you run into this problem, we highly recommend that you contact your Exchange 2000/2003 administrator to make sure they have installed this update.
+One other item to note is that the update referenced in this post, was re-released on Feb 2007 to fix two additional issu.
+Fixed inability to edit replies to messages composed in Entourage Exchange cli.
+Fixed inability to edit replies to meeting requests If you are running into either of these two issues, installing the current version of the updateshould fix the problem.
+Hopefully this helps anyone using Windows Vista who may be experiencing this issue with OWA.
+--Bash Edit: title correction.

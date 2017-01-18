@@ -1,0 +1,8 @@
+Earlier this week we released the latest security update for IE, MS04-038.
+We've been working on this since XPSP2 shipped, and it's nice to see it made available to customers on Windows Update.
+This update addresses, among other issues, the drag drop vulnerabilitythat's been in the news security circles lately.
+This is also the first IE update to use the our latest installation technology, so corporations who deploy Microsoft products and updates will have a more uniform experience doing so.
+Phil, some of the other IE team members, and I participated in a web chatyesterday morning to discuss this release with our corporate and end-user customers it was great to hear their feedback, concerns, and questions.
+Looks like the slideswere just posted for people to take a look at in case you missed the chat.
+Surf safely.
+-Christopher.

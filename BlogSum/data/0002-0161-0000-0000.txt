@@ -1,0 +1,37 @@
+Hello, Walter from the land of IE Program Managers here.
+You might have seen or read about the RSS functionality in the user interface of IE7 Beta 2 Preview.
+There is a bit more to it then just letting users subscribe and read feeds from the IE7 user interface.
+The RSS functionality in IE7 is "powered" by the Windows RSS Platform.
+The Windows RSS Platform API encapsulates 3 main components: Common Feed List, Feed Synchronization Engine, and Feed Store.
+The RSS functionality in IE7 is built on top of these components.
+While we previously announced that the Windows RSS Platform would be available for Windows Vista, we are extremely pleased to announce that the Windows RSS Platform will also be available as part of Internet Explorer 7 for Windows XP SP2, Windows Server 2003 SP1 and Windows XP 64-bit.
+The Windows RSS Platform is available to any application.
+The idea is that applications can utilize the Windows RSS Platform to become RSS enabled without having to re-implement basic RSS building blocks.
+This can significantly reduce the time and effort application developers have to invest in order to integrate RSS into their programs.
+That's all great, but what does that mean.
+And why is a Windows RSS Platform a good idea.
+Glad I asked ;) Let me tell you about that.
+Like many of you, I've been running several RSS applications (aggregators, pod casters, etc ) for some time and am subscribed to close to 100 feeds.
+Each time I start using another RSS application I play the "game" of OPMLexport and import.
+This quickly becomes a hassle, especially when I lose track of feeds because I subscribed to or deleted feeds in different applications and hence my feed lists are no longer in sync.
+This is where the Common Feed List of the Windows RSS Platform can help.
+Multiple applications can read, add, or delete from the Common Feed List and hence are "sharing" the user's list of subscribed feeds.
+IE7 is one such application.
+When you discover and subscribe to feeds in IE7, it adds them to the Common Feed List and the new subscription is available to other applications.
+Not only can the user benefit from multiple applications using the Common Feed List, but we expect that over time, online services will provide tools that synchronize the Common Feed List with their services.
+This will allow roaming of the user's subscription list not only between applications, but also between computers.
+But wait, there's more.
+I mentioned two other components above: Feed Synchronization Engine and Feed Store.
+Together with the Common Feed List, these components allow application developers to include support for RSS feeds without having to becomes an expert in RSS formats, synchronization schedules, enclosure downloads or even XML().
+Here's what the Windows RSS Platform provides for develope.
+Support for every major RSS and Atom format, as well as many popular extensio.
+Background scheduled updat.
+Support for server-friendly technologies like conditional GETs and RFC 3229 for fee.
+Bandwidth-friendly enclosure downloads using Background Intelligent Transfer Service (BIT.
+API exposing a simple object model for feeds as well as direct access to the raw XML stream.
+All of this functionality is available as shared technology as part of IE7 on Windows Vista and down-level.
+As a developer, including RSS support in your application can be amazingly easy.
+I'm sure that many of you are interested in more details of the API, features, and implementation.
+Over the next few weeks we will post about those on the RSS team blog.
+Head on over and leave us your comments and questions.
+- Walter.

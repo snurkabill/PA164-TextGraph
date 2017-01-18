@@ -1,0 +1,26 @@
+Well, the results are in, and here they are:.
+As you recall, I asked people to send in their results from asking people to choose a random number between 1 and 20 inclusive.
+I got several responses, and the results show a clear preference for 17 as predicted, or at least as observed by others.
+But in this sample, we also see that 7 was equally popular.
+Perhaps there is some affinity to 7 in this context.
+I also got an email from Dom DeStefano, pointing out that a similar article had appeared in Cognitive Daily, inspired by ours a few days before.
+Their data as well show the 17 effect as awell as a preference for 7.
+The go on to examine odd versus even, prime and non-prime, etc.
+Dom hypothesized to me that the first guess of an individual can never be considered true random , and that subsequent guesses become more random and less motivated by deductive reasoning.
+This would make a vey interesting study for psychologists or sociologists.
+Even more interesting - the Cognitive Daily piece got 40k hits.
+Apparently, this has been a lot of fun for school children in particular.
+It's good to learn about randomness there seems to be a lot of it in the world.
+We use tons of random numbers in my own field, when we do computer simulations of high energy particle collisions and the response of our detectors to them.
+At the core, the computer software that generates random numbers is called a pseudo-random number generator because, since it's a computer program, the numbers are not truly random.
+In fact, if you run such a generator over and over again, starting from the same seed values, you get the same sequence.
+That is useful, especially if you are trying to debug your program.
+There is a whole minor industry in the computer science world dedicated to figuring out how to tell if a random sequence is truly random, and developing procedures to test them.
+There are random number generators available on the web that are truly random, and use digitized atmospheric radio noise or radioactive decays to generate the numbers.
+Take a look at randomorg for more on that.
+Well, my original post was inspired at least in part by the subtitle of this site - we ought to be saying just what randomness is after all.
+Which leads me to end on a question, one which plagued Einstein himself: is the world truly random.
+Quantum mechanics certainly seems to imply that.
+But like Einstein, I have never found that satisfying.
+If you ponder these things, immediately you can get bogged down in the philosophical morass of free will and determinism, and the role of consciousness in making reality.
+Good luck getting out.

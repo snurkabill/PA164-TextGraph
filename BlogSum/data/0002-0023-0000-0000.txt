@@ -1,0 +1,7 @@
+With XPSP2 out the door, we're turning our attention to bringing our latest security enhancements to upcoming Windows releases.
+Next up: Windows Server 2003 SP1 and Windows XP 64-bit edition v2003, which are both currently in Beta.
+Both these platforms will receive the same treatment as XPSP2 did for IE: they'll get all our security improvements, the pop-up blocker, the information bar, etc.
+See Tony's blog entryabout IE in XPSP2 for more info links about the changes we made in XPSP2.
+Customers who want to keep their Server box hardened will still be able to of course (and it will remain the default setting for any Windows Server).
+Once these changes are ported to those platforms, the new SV1 UA string token will show up there too.
+-Christopher.

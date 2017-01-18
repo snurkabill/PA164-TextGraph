@@ -1,0 +1,21 @@
+A web page presenting a scale-model hydrogen atom (via Cynical-C):.
+And you thought there was a lot of empty space in the solar system.
+Well, there's even more nothing inside an atom.
+A hydrogen atom is only about a ten millionth of a millimeter in diameter, but the proton in the middle is a hundred thousand times smaller, and the electron whizzing around the outside is a thousand times smaller than THAT.
+The rest of the atom is empty.
+I tried to picture it, and I couldn t.
+So I put together this page - and I still can't picture it.
+The page is scaled so that the smallest thing on it, the electron, is one pixel.
+That makes the proton, this big ball right next to us, a thousand pixels across, and the distance between them is yep, fifty million pixels (not a hundred million, because we're only showing the radius of the atom ie: from the middle to the edge).
+If your monitor displays 72 pixels to the inch, then that works out to eleven miles - making this possibly the biggest page you've ever seen.
+Okay, we all know that, science-wise, this is utterly bogus.
+Mostly because the proton and electron are not little spheres of fixed size, as our classical intuitions inevitably imagine them to be they should be represented by wavefunctions, and the electron's wavefunction in particular should be spread throughout all eleven miles.
+Admittedly, an eleven-mile web page that accurately represented the ground-state wavefunction of the hydrogen atom would have been harder to construct (although, hmm, maybe not impossible).
+And I'm not sure where the sizes of the particles came from.
+The proton really does have a size, about 15 x 10-15 m, since it's a bound state of quarks.
+But the electron is a point particle, as far as we know.
+There are various distance scales you can associate to it, but the smallest of these is the classical electron radius, which is about twice the size of the proton diameter.
+John Baez explains.
+I don't know how to get an electron to be one thousandth the size of a proton, unless you're using masses rather than lengths, which is a big mistake because (in the wacky world of quantum mechanics) lengths get smaller when masses get bigger.
+Still, it gives you some feeling for the instubstantiality of matter, as Geiger and Marsden long ago demonstrated.
+And it's pretty cool.

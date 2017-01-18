@@ -1,0 +1,23 @@
+I'm Markellos Diorinos, and I am a product manager with the Internet Explorer team.
+Yesterday I read a story in the Wall St Journal about how some small businesses, such as the featured Aunt Joy, will receive a lump of coal this Christmas, as they are unable to get the new EV SSL Certificates.
+Kelvinand Robhave previously discussed EV Certificates, but I wanted to share some of my thoughts with you.
+Just like regular SSL certificates, EV SSL certificates will only be used when sensitive information is transferred online, eg while entering credit card info or logging into an email account.
+So don't expect to see a green bar all the time only when you are about to make a trust decision and enter sensitive information do you need to look for the green bar, to confirm the identity of the recipient of that information.
+Even on banking sites, only the online banking portion of the site will use the EV SSL.
+The EV SSL Guidelinesare an industry-wide initiative of the CA/Browser forum, with the participation of many browser vendors and certification authorities.
+The current guidelines cover most businesses, except for some types of small businesses that are not incorporated (sole proprietorships, general partnerships and individuals).
+The guidelines set down rules for CAs to confirm a requestor's legal existence and identity, and their control of a domain.
+The Forum members found that this was achievable for incorporated entities, but much more difficult for these smaller businesses where legal registration practices vary, often from county to county in the US and from country to country.
+Additionally, anyone's ability to verify individual identity is even more difficult, particularly for a transaction like SSL certificates that are typically made online, not in person.
+Given the benefits that EV Certificates bring for consumers and businesses alike, it only makes sense to make EV available as soon as possible, and keep improving the guidelines to cover all types of businesses.
+Until a version of the guidelines that covers all businesses becomes available, those not covered can still use regular SSL certificates, or use EV SSL through one of the following options:.
+They can partner with a 3 rd party for transaction processing, such as PayPal.
+They can use their web-hoster or some other 3 rd party for hosting their secure pages.
+They can use one of the available store-in-store systems to host their presence (such as eBay or Yahoo stores).
+Aunt Joy thinks that she will not be able to use EV SSL for her business but she should take another look in her stocking.
+Aunt Joy apparently never got an SSL certificate in her own name but instead used two of the alternatives outlined above:.
+she has her own web site, with secure pages hosted by her provider using their SSL Certificate, and a store-in-store with eBay Stores.
+This means that with the availability of EV Certificates (and as soon as eBay and her web-hoster upgrade to EV SSL), both of Aunt Joy's stores will be able to light up with the green address bar and new identity information during the checkout process.
+What's best is that Aunt Joy - and many small businesses like her - will enjoy the benefits of EV SSL for their business and for their customers without having to do a thing.
+It appears that Phishers may be the only ones who will have to make do with a lump of coal this Christmas.
+Markellos Diorinos IE Product Manager.

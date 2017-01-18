@@ -1,0 +1,32 @@
+Part 1 of Security Issues That Aren'tgave rise to a lot of interesting comments.
+Hearing back from you is really helpful in terms of understanding what issues folks are dealing with and where we need to focus our attention.
+To those of you who suggested I should worry more about security issues that are instead of those that aren't : I do.
+That's exactly why I chose the subject: The fewer non-security reports I need to investigate, the more time I can spend on more severe problems.
+So bear with me today's topic is IE crashes and hangs.
+A crash is a crash is a crash or is it.
+In terms of security implications there are huge differences; a useful way of categorizing crashes is by looking at how they can affect the user.
+This is the worst case scenario.
+When can a crash result in a remote code execution vulnerability.
+The canonical example is an exploitable buffer overrun (BO).
+When the BO is encountered inadvertently, the application typically crashes due to an illegal memory access.
+However, an attacker could be able to exploit the bug to inject code into the process memory space and transfer control to it.
+Not every BO is exploitable, but many are.
+A crash falls into the less severe denial of service (DoS) category if it cannot be exploited for code execution.
+An attacker can crash your browser when you visit his malicious site, but cannot do any harm beyond that.
+The classic example for DoS is a null pointer dereference.
+Read access beyond a buffer boundary (as opposed to write access, which is usually exploitable) can also give rise to a DoS crash.
+The most severe types of DoS .
+Mailable DoS: The IE crash also affects mail clients (eg Outlook Express) that host IE to render HTML mails.
+An attacker could then craft an email that will crash the mail client when you try to open or preview the mail.
+In the worst case, you might not be able to delete the mail or even open the mail client.
+Recent versions of OE and Outlook protect against this by not showing the preview pane if the client had previously crash.
+BSoD DoS: The root cause of a blue screen DoS is usually a driver problem.
+However, the browser or mail client can be the means to trigger the BSoD and are thus involved in the crash.
+In a hang scenario, the browser becomes unresponsive, forcing the user to kill the process from Task Manager and restart it.
+This can be easily achieved without exploiting any bugs, eg by scripting an infinite loop on a web page.
+Again, an attacker cannot do any harm beyond forcing the user to restart the browser.
+Hangs are not exploitable for code execution and are always low level DoS issues.
+We are continuously working on improving the robustness of IE.
+Investigating crashes and hangs such as those reported to us through online error reporting is a big part of that.
+I hope I have given you some insight into how we think about these, in particular how we prioritize them in terms of security.
+- Patrick.

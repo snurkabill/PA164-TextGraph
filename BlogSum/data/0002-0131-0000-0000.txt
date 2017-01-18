@@ -1,0 +1,13 @@
+Tony and Rob have just wrapped up their keynote here in Kuala Lumpur, and I wanted to make sure that the resources they talked about are listed here both for the benefit of the conference attendees who wanted to get to them and to everyone else who couldn't be here today.
+The talk spoke to how Microsoft's Security Development Lifecycle (SDL) has influenced the development of IE 7.
+Specifically, and quite obviously if you've been reading this blog, IE 7 isn't just about patching problems but about making deep architectural changes to provide defense in depth at every level of the browser.
+Here are some of the resources that we mentioned for those interested in SDL or providing us feedback on our security pla.
+The Security Development Lifecycle (S.
+Book: Writing secure c.
+Book: Threat model.
+This blog (congratulations, you've found it .
+Send us feedback on security issues: secure@microsoftcom.
+Thanks to the organizers of the conference for having us.
+This keynote represents the first time the IE 7 team has given a talk at a software security conference and we hope it's the first of many talks and opportunities we'll have to engage with security researchers around the world.
+-Christopher Vaughan.
+Edit: fixed formatting errors.

@@ -1,0 +1,20 @@
+As we've worked on the new Phishing Filter in IE7, we knew the key measure would be how effective it is in protecting customers.
+In addition to our internal tests, we wanted to find some external measure of our progress to date as well as pointing to ways we could improve.
+We didn't know of a publicly available study covering the area, only some internal and media product reviews.
+(We've bloggeda few timesabout the new Phishing Filter in IE7; in addition to these technical details we published the results of a 3rd party privacy audit).
+To help us answer this question, we asked 3 SharpLLC to conduct a study of the Phishing Filter in IE7 along with seven other products designed to protect against phishing threats.
+In order to establish an accurate methodology on a level field, they utilized four sources of independent data that are not used to populate the IE7 Phishing Filter service today.
+They worked hard to build large enough sample sizes of actual phishing sites to draw meaningful conclusions.
+3Sharp LLC tested eight browser-based products to evaluate their overall accuracy in catching 100 live confirmed phishing websites over a six week period (May July 2006) and also understand the false-positive error rate on 500 good sites.
+In addition to IE7, the toolbar and browser solutions tested included the offerings from EarthLink, eBay, GeoTrust, Google Safe Browsing using Firefox, McAfee SiteAdvisor, Netcraft, and Netscape.
+You can see actual version numbers in the detailed report.
+We are pleased to see that Internet Explorer 7's Phishing Filter finished at the top of 3Sharp's list as most accurate anti-phishing technology, catching nearly 9 out of 10 phishing sites while generating no warning or block errors on the 500 legitimate websites tested.
+You can read the report for yourself at 3Sharp's website.
+The report contains details on the methodology, the data sources used and even a list of every single URL tested.
+It's great to see so many companies looking for different ways to address the significant problem of phishing.
+We think that the results reported by 3Sharp validate the unique approach we've taken of combining a service-backed block list with client-side heuristics.
+That said, we understand that the threat posed by phishing is constantly evolving as are the tools designed to protect users, so this set of results represents only the relative performance during that period.
+We know we need to keep working to keep up with the changes in the attacks and are already using the results of this test to further improve the efficacy of the Phishing Filter.
+If you're using IE7 but not already using the Phishing Filter, I encourage you to turn it on (you can find it under the Tools icon) and browse with more confidence.
+If you're not using IE7 yet, you can install our latest version here.
+Tony Chor Group Program Manager.

@@ -1,0 +1,9 @@
+With the Local Machine Zone Lockdown introduced in Windows XP SP2 an HTML file on your hard drive will no longer be able to run script and active content without user permissions being granted through the information bar and an additional prompt.
+This is part of the work to ensure that if you do get bad content on your machine it cannot run with elevated privileges and do nefarious things.
+Users should exercise caution whenever the information bar appears and be sure that this is really content they wish to allow before doing so.
+One of the ways for legitimate content to work when on the local machine is for the content to include what is known as the Mark of the Web (MOTW) in the page.
+Once included this will allow such content to run from the local drive.
+I've seen a little confusion as to what the MOTW actually does so we've improved the documentation on this on MSDN.
+In short the MOTW in a page allows the content to run as if from the Internet zone.
+So the script and active content will have the same privileges as if you were viewing it from a website and not be able to run with elevated access to machine resources.
+Thanks -Dave.

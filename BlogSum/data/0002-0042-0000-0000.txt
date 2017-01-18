@@ -1,0 +1,13 @@
+Microsoft released several security updates today MS05-001, MS05-002 and MS05-0.
+MS05-001 has a fix for a remote code execution issue affecting the HTML Help Control&amp;#1.
+MS05-002 contains a fix for the X-Focus issues&amp;#1.
+MS05-003 has a fix for a remote code execution issue with Indexing Services.
+The first two are rated critical and the third is important .
+MS05-001 is the most critical to reducing IE-based attack vectors.
+The HTML Help Control team updated the version of their control that fixes a critical vulnerability in that component.
+We are glad they were able to fix this vulnerability so quickly.
+Unfortunately, the XPSP2 security mitigations do not protect against the flaw in this control, so I encourage everybody to download the latest security updates from Windows Updateand if possible turn on automatic updates so you get these updates without having to navigate to Windows Update.
+Microsoft also released technology on Windows Update today that helps remove malicious software from your system if it has been infected.
+The Malicious Software Removal Tool is mainly targeted at consumers, but it can also be leveraged in the enterprise space via SMS.
+For more details, see http://wwwmicrosoftcom/malwareremove.
+Thanks Scott.

@@ -1,0 +1,19 @@
+Back in November, we announced our intention to bring Extended Validation SSL Certificates to IE7.
+This week at RSA we've announced that IE7's EV SSL support is now live.
+Many Certification Authorities (CAs), including VeriSign, CyberTrust, Entrust and GoDaddy, are already issuing EV SSL Certificates.
+We are already seeing businesses such as eBay, PayPal, Charles Schwab, Overstockcom, French Soapsand Stardock) beginning to use EV to offer verified identity information to their users.
+I recently read a Gartner Inc surveythat discovered nearly $2 billion were lost in e-commerce sales in 2006 due to security concerns we certainly hope that IE7 and EV will help to reduce that number.
+As EV enters the mainstream, users will need to find out more about these new certificates and how to use them when navigating the internet.
+We have posted new information on Extended Validation SSL(and FAQ), a tutorial on how to use the information presented in the Security Status Bar, and updated our online safetyand identity theftguidance to take EV into account.
+Website owners who want to offer EV will be interested in our IE7 EV Implementation Guide.
+Two years ago, Bill Gates announced IE7 at RSA highlighting the Phishing Filter as one of its major features.
+Today, at RSA, we reported updated results on the Phishing Filter.
+Since IE7 launched in October, the Phishing Filter has blocked more than 10 million attempts to visit known phishing websites and is currently experiencing a rate of over 1 million blocks a week .
+IE7 users and our data providers are adding nearly 10,000 Phishing sites every week to help protect our community of users.
+In addition to the 3 Sharp LLC analysis we commissioned a while back, Carnegie-Mellon University's Dr Lorrie Cranorand her colleagues updated their independent, comparative studyon anti-phishing toolbar accuracy last month, confirming that the Phishing Filter in IE7 is one of the most accurate anti-phishing technologies they tested.
+It was the only one that consistently caught more than 60% of phishing sites while having the lowest possible rates of incorrect ratings (otherwise known as false positives) .
+We are continuing to improve the phishing filter.
+At RSA we announced 4 new Phishing Filter data providers: the Australian Computer Emergency Response Team (AusCERT), BrandProtect, MySpacecom, and Netcraft's data from their anti-phishing toolbar (both IE and Firefox) .
+Together with our current partners (Cyveillance, Digital Resolve, Internet Identity, Mark Monitor, RSA) and our IE7 users, who continue to report great leads to us, we hope this will continue to improve the effectiveness of our Phishing Filter.
+If you are at RSA, make sure and check out the IE Pod (#16) in the Microsoft booth (#1208).
+Jeremy Dallman IE Program Manager.

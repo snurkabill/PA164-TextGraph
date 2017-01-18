@@ -1,0 +1,6 @@
+Back in October, we blogged about some of the HTTPS improvementswe're making to IE7.
+At the time, we mentioned that we have encountered some HTTPS servers which claim to support TLS, but violate the RFC and hang up when extensions are received during the HTTPS handshake process.
+On Wednesday, Windows Networking GPM Billy Anders posted to the Windows Networking team blog, explaining why buggy TLS servers will result in connection failures when Windows Vista clients send TLS extensions.
+The IE site-compatibility team will be proactively contacting the few major web sites who are running broken TLS implementations, but please be sure to try out your own secure sites using the upcoming Windows Vista Beta 2.
+If you cannot connect to the site by default, but successfully connect after you uncheck Use TLS 10 in Tools | Internet Options | Advanced, please contact the manufacturer of your web server software about the availability of a fix for their TLS implementation.
+- Eric Lawrence.

@@ -1,0 +1,11 @@
+Hi, my name is Mike Chan, and I'm a product manager for Internet Explorer focused on businesses.
+This week, we released two documents to help businesses get IE7 deployed.
+The first document explains the business value of upgrading to Internet Explorer 7 for Windows XP and can help you convince your management to deploy the latest version of IE.
+The second document provides detailed guidance on how to get moving on that deployment.
+The IE7 Technology Overview for Businessesdescribes how improvements in IE7 will help you deploy and manage IE7 in your enterprise environment.
+Whether you support a large, medium, or small business, we describe how Internet Explorer 7 can help secure your business while increasing productivity.
+For those who have to deal with a few hundred or more desktops, there are additional considerations before rolling out the new browser.
+As you plan your deployment, check out the Internet Explorer 7 Deployment Guide.
+This guide discusses methods of deployment and maintenance, management as well as support of Internet Explorer 7 after deployment.
+We're always interested in what you have to say - drop us a note at iedeploy@microsoftcomto provide feedback on these new documents.
+Thanks, Mike Chan Product Manager.

@@ -1,0 +1,14 @@
+In my last blog postI mentioned how important compatibility is, for example, you might see a certificate error page and would like to know what the problem with the website digital certificate is.
+In order to help you get ready for IE7, the IE team released a small toolthat can be used to find compatibility issues when using IE7 beta builds.
+I am happy to announce that Microsoft has released a beta of the fully featured compatibility tool, the Microsoft Application Compatibility Toolkit 50 Beta.
+This new toolkit will cover all the IE 7 logging that the previously released tool had.
+Some of the other highlights incl.
+ACT 50 will identify compatibility issues when using Windows Vista and IE7, for example, what applications are having problems with User Account Control (UAC), a new Windows Vista featu.
+Richer UI experie.
+ACT 50 will have agents that can be installed on individual machines which will upload all the compatibility data from individual machines to a central location for analysis, grouping, reporting e.
+Once an issue has been identified ACT 50 will have help available on how to resolve a particular issue or workaround .
+ISV partners and customers using ACT 50 will be able to post comments to the new Online Application Community where they can share their information about application compatibility testing and upload results to sha.
+ACT 50 can also be used on Window XP SP2 to help identify compatibility issues when using IE7.
+Visit hereto read more about Application Compatibility Toolkit 50 Beta and sign up for beta program.
+The temporary tool created by the IE team will stop working on May 26 th 2006.
+Thanks, -Tariq.

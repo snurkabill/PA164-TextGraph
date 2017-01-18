@@ -1,0 +1,16 @@
+Hello, I'm Marc Silbey, a Program Manager focused on IE security.
+I'm back from my honeymoon and I want to follow-up to Rob's last post on IE7 Securityby providing you with more detail on Protected Mode's compatibility features and by telling you about a related workaround to a known issue in the first Community Technology Preview (CTP) build of Windows Vista.
+As Rob mentioned, Protected Mode helps to eliminate the silent install of malicious code through Windows Vista's User Account Protection (UAP) technologyby blocking writes outside of the Temporary Internet Files (TIF) folder.
+Protected Mode also leverages UAP's User Interface Privilege Isolation (UIPI) to help prevent Window messages from being sent to higher privilege processes.
+For this release, security is our number one priority and preserving compatibility is a close second priority.
+To maintain compatibility, Protected Mode launches broker processes at the user and admin privilege levels to accomplish elevated operations like saving web pages and installing ActiveX controls through UAP's Application Info Service (AIS).
+User Account Protection is enabled in the Windows Vista CTP build, but Protected Mode work is not done yet and hence users are unable to install ActiveX controls in the default configuration.
+To solve this problem, the following procedure can be used to temporarily elevate IE's permissions: Start IE with elevated permissions: click Start, point to All Programs, right-click IE, and then select Run Elevated.
+Perform the ActiveX installation.
+Exit the current instance of IE.
+Start a new instance of IE normally (without Administrator permissions).
+Protected Mode also includes compatibility features which allow most add-ons to continue running unaffected and which provides impacted add-ons with feasible implementation options.
+For example, a compatibility layer automatically redirects file writes to the TIF, a new SaveAs API prompts the user with a File Save dialog thus allowing add-ons to write outside of the TIF, and the User-level broker provides a way for add-ons to bypass Protected Mode for certain secured API calls given user consent.
+For more details on Protected Mode including a demo of how Protected Mode helps protect users, check out our Channel9 Interviewof Rob Franco and Robert Gu, lead developer for Protected Mode.
+I look forward to writing more on this topic in the coming months and to reading your feedback on Protected Mode.
+- Marc.

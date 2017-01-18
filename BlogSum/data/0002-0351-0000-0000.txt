@@ -1,0 +1,17 @@
+It's always good practice when developing web pages to test them in browsers with default settings as it is most likely that your users will have default settings when using their browsers.
+One thing that we've seen catch a couple of people out with IE is that the default settings can be a little different depending on the security zone the page is running in.
+Many of you will be familiar with the different security zonesin Internet Explorer with the internet and intranet zones being two that you may see on a regular basis in the status bar of IE.
+By default the security settings for content running in the internet zone are a little more restrictive than those for content running in the intranet zone.
+One example is that in IE7 under default security settings a web page running in the internet zone may not write text to the IE status bar using the windowstatusmethod call, whereas the call is allowed in the intranet zone.
+This restriction was introduced in IE7 as part of the security work to reduce spoofing and ensure that content on the internet cannot directly influence the area of the browser outside the HTML rendering area.
+During development of web pages content is often supplied by a local server and as a result runs in the intranet zone.
+Later when the pages are deployed and accessed from the internet the same content runs in the internet zone.
+As a result a call to set windowstatus that worked during development no longer functions.
+To avoid these differences and have content run in the internet zone despite it originating on the intranet you can add the Mark Of The Web(MOTW) to pages.
+The MOTW is a comment that should be placed at the start of the HTML page to show that the content is from the internet in the form -- saved from url=(0014)about:internet -- .
+Including the MOTW in pages and checking that you have default security settings during development can help ensure that you are experiencing the same settings as users of IE on the internet will have when your pages are deployed.
+On a separate topic I d like to note that this will be my last post here.
+After eleven great years at Microsoft it is time for me to move on to new adventures.
+I know that the IE team will continue to work on future versions of IE, supplying a great and secure browsing experience for Windows.
+I am looking forward to seeing the next releases of the product.
+Thanks, Dave Massy Senior Program Manager.

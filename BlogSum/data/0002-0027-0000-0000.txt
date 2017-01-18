@@ -1,0 +1,27 @@
+Like any piece of software I have worked on, I have intense affection for the resultant software we ship (warts and all).
+However, there are usually a number of things you wish you had had more time to make better and every time you run across it in the product it drives you crazy.
+One thing that bothers me with IE in XPSP2 is the amount of hoops you need to click through to set Google or some other search engine as your autosearch provider.
+A quick way to set Google is to use the reg file up on http://wwwgooglecom/googleregor to install the Google toolbar.
+But as a purest of sorts and a tester, I like to use the official UI to do this.
+In the case of IE in XP, this takes a while.
+You need to do the following -.
+Click on the Start button.
+Click on Search.
+Click on Change Preferences.
+Click on Change Internet Search Behavior.
+Select Classic Internet.
+Search Select Google from the list.
+Click ok.
+Start IE.
+Click on Search button to open the search pane on the left.
+Click on customize at the top.
+Click on autosearch settings.
+Make sure Google is set as the search provider.
+Click ok.
+Click ok.
+That's way too many clicks.
+This is definitely something we are going to get right in Longhorn.
+Some may ask why we didn't fix this in XPSP2, which is a fair question.
+We didn't fix it in XPSP2 because we had a specific focus to go in and secure the browsing experience and platform.
+Doesn't mean we didn't want to.
+Scott IE Test Manager.

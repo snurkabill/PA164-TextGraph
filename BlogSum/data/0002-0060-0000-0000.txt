@@ -1,0 +1,27 @@
+I haven't tried the Netscape betayet, but I have read that it allows users to switch between the Gecko rendering engine (the one used in Firefox) and Internet Explorer's rendering engine.
+I think this a good opportunity to write about the Windows Web Browsing Platform (the IE Platform) and its counterpart, the IE Browser.
+The Browser is easy to explain.
+It's the blue e  It's a nice presentation (with toolbars, a Favorites menu, etc).
+of the IE Platform.
+The Browser is meant for end-users; the Platform, for developers.
+The Platform is the stuff under the hood that every Windows application can rely on to (among other things) navigate to and render web pages.
+One of the goals of the Platform part is to make using the Internet with Windows applications easy for software developers.
+The Platform offers a lot of power.
+Applications can host the rendering engine in order to display rich web content as an integrated part of the application.
+When I read HTML email in Outlook, or see pages in Windows Media Player or MSN Explorer or the AOL client (among many, many other clients), or read RSS feeds in RSS Bandit (or many other aggregators) that's the IE platform at work.
+The Platform also allows developers of client applications to use the rich HTML rendering capabilities even when full Web browsing capabilities are not needed.
+For example, many software developers who want to offer their customers an attractive web-like first experience after inserting the CD choose to author HTML Applications (HTAs)rather than write a more traditional Windows application.
+I've seen many product tutorials and the like written with this approach.
+Another great thing is that about the platform is that when we deliver an IE security update, all of the experiences that build on the platform are updated as well.
+This makes life easier for both developers and end users.
+Applications on Windows have been able to use the IE platform components since IE3.
+Here's some sample documentationfrom 1997 that shows how easy it is to write a web browser in Visual Basic that uses the IE Platform.
+Of course, many different languages and technologies can host IE platform components.
+Here's a sample applicationfrom 2004 that uses C# and Visual Studio Express to create a simple tabbed browser.
+I look forward to trying the Netscape beta and having pages work the way they do in IE.
+I'm happy to see another browser built on top of the IE platform to go along with NetCaptor, Maxthon, and these other ones.
+I'm also looking forward to what Blakeand Joesay about the beta.
+(The Platform has a lot more to it that I won't get into here, but it is extraordinarily flexible and extensible.
+I gave some examples back here.
+Expect Chris Wilson and Dave Massy will post more about the platform).
+Dean (edit: editing error removed).

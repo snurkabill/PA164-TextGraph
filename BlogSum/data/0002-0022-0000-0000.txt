@@ -1,0 +1,10 @@
+Hi, I'm Gary Schare and I run the product management team for IE.
+This includes defining and communicating the IE value proposition for all customer segments and helping the product team with long-term product strategy.
+I posted a comment last week about Windows Marketplace on the Community Site entryand wanted to follow up with more info.
+Windows Marketplacewent live this week and contains an entire sectiondevoted to browser add-ons.
+This section comes directly from Downloadcom so all add-ons already listed there are searchable in Marketplace.
+If you haven't already noticed, IE in XP SP2 ships with a link to Marketplace in the Links folder.
+So millions of users will be visiting the site very soon.
+If you're a developer and want to get your new products listed there, visit the Marketplace partner site, but you have to be a member of the Microsoft Partner Program to list your products.
+You can sign up right on the site.
+- Gary.

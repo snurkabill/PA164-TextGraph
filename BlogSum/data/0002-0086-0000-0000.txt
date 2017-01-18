@@ -1,0 +1,28 @@
+Before we start let me shortly introduce Adrian Bateman.
+He is the developer currently working on our IE7 print experience.
+Since he works out of Microsoft's offices in Reading, England, we are much better now at printing tomatoes .
+Without further ado:.
+Today, there is a well known problem with printing from Internet Explorer where the layout of the page sometimes causes content to be cropped if it doesn't fit into the width of the paper.
+We are working hard to improve printing in IE7 but we'd like to share some approaches to ease the pain when printing with IE today.
+First of all, content authors creating web pages can change the layout of their pages when printing using the CSS @media rule.
+This allows you to specify CSS attributes that get applied based on whether the page is displayed on screen or printed to paper.
+You might, for example, choose to turn off menus, logos, and side content by setting the appropriate areas to display: none when printing.
+Example: @media print { #menu, #logo, #sidebar {display: none; }}.
+If you want to print web pages from someone else's site then you have a few options.
+Using the built in functionality, you may be able to adjust the size of the margins used when printing to make the content fit.
+You can do this by picking File, Page Setup from the menu or using the Page Setup button from within Print Preview.
+Many people set their page orientation to landscape when printing wider pages and in this aspect ratio, most pages will print correctly.
+Remember that Print Preview will give you an accurate indication of what will be printed and allow you to see if the page will be cropped.
+Often, you only really want to print part of a page.
+You don't need the adverts, navigation, and layout.
+If you select part of a page, you can right-click and choose Print and then choose the Page Range radio button for "Selection".
+This will print just the area of the page you've selected.
+If you want to take the hassle out of printing or if the suggestions above don't work on the pages you need to print, there are several Internet Explorer add-ons that he.
+Internet Explorer Fitted-Width Print.
+Power Team's HTML Print.
+FinePrint.
+As I indicated, printing and the print preview experience are amongst the areas we are improving in IE7.
+Our goal is to be able to print most web pages without losing any content using the default settings.
+For pages where this is impractical, we want to provide you with simple controls within print preview so that you can quickly and easily adjust the settings needed to print the way you want.
+We're still finalizing the details of the new functionality for printing but I will post an update once we get it locked down.
+-- Adrian Bateman and Markus Mielke.

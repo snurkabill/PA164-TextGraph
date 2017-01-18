@@ -1,0 +1,11 @@
+Add-ons for the IE platform are more than just toolbars, custom browsers and find-on-page add-ons.
+The edges of what you can do with the platform are virtually unlimited.
+Earlier this year at Mix06, Greg Reinacker and Walter VonKoch demo d a toolfor synchronizing the RSS platform state with your NewsGator online account.
+On Monday, Nick Harris (no relation) at NewsGator announcedthat the tool, renamed NewsGator Desktop Sync is available for general beta.
+From his post: Desktop Sync is a system tray application that keeps your feeds, folders and read states synchronized between NewsGator Online and the Windows RSS Platform.
+This means that any application that uses the Windows RSS Platform will be automatically synchronized with your NewsGator Online account.
+Of course, since IE7 uses the Windows RSS Platform, this is a great way to roam the feeds you read in IE from one machine to another.
+Check out Nick's postfor information on where to download and where to give feedback on the tool.
+Pick it up and try it out.
+Be sure to check out the many other add-ons at IEAddOnscomand let us know what you think.
+Mark Harris Lead Program Manager - Extensibility.

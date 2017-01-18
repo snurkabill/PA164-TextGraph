@@ -1,0 +1,23 @@
+One of the reasons we (or I, anyway) don't do more science posts is that it's hard to do a good job.
+Cutting and pasting and linking is easy, whereas it takes time to really absorb some interesting scientific concept and present it in a hopefully-understandable way.
+And we're all amateur blogging hobbyists with day jobs.
+But I had the idea that it might be fun to get glimpses at what is going on in the field by taking occasional amusing papers that appear on arxivorg, and just reposting their abstracts here with a couple of words.
+If anyone doesn't follow the details, that's okay; think of it as performance art, and the abstracts as little prose poems.
+Today's arxiv find is hep-th/0701252, Cycling in the Throat by Easson, Gregory, Tasinato and Zavala.
+Here's the abstract:.
+We analyse the dynamics of a probe D3-(anti-)brane propagating in a warped string compactification, making use of the Dirac-Born-Infeld action approximation.
+We also examine the time dependent expansion of such moving branes from the mirage cosmology perspective, where cosmology is induced by the brane motion in the background spacetime.
+A range of physically interesting backgrounds are considered: AdS5, Klebanov-Tseytlin and Klebanov-Strassler.
+Our focus is on exploring what new phenomenology is obtained from giving the brane angular momentum in the extra dimensions.
+We find that in general, angular momentum creates a centrifugal barrier, causing bouncing cosmologies.
+More unexpected, and more interesting, is the existence of bound orbits, corresponding to cyclic universes.
+See.
+Poetry.
+The basic idea here is to explore what can happen when a 3-brane (which could be our visible universe, if all of the particles of the Standard Model were confined to it) doesn't just sit there in the extra dimensions, but zooms and twirls around like a multidimensional figure skater.
+Ever since Randall and Sundrum caught on to the fun things that can happen when extra dimensions are warped, we continue to discover new and interesting scenarios for these hypothetical directions of space.
+This paper sets the branes to spinning, and steps back to look at the results, which apparently include bouncing cosmologies.
+I might worry about stability in the presence of perturbations, but that's just something to do for a follow-up paper we'll never run out of good questions to ask.
+Some other fun papers this week: Jackiw and Pi, Chiral Gauge Theory for Graphene, cond-mat/0701760.
+Bekenstein, The modified Newtonian dynamics-MOND-and its implications for new physics, astro-ph/0701848.
+Bojowald, Quantum gravity and cosmological observations, gr-qc/0701142.
+Brandenberger, String Gas Cosmology and Structure Formation - A Brief Review, hep-th/0702001.

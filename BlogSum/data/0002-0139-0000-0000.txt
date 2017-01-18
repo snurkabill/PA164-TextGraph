@@ -1,0 +1,19 @@
+We've heard some concerns about the potential impact of recent IE updates, and I want to give you background on these updates so you can understand the impact.
+It is a top goal of ours to keep users safe and web pages working as the author intended.
+The great majority of users and developers should not be negatively impacted by recent IE security changes.
+However, there is potential for any code change to change how a web page works, which is why we are very careful about deciding what changes we release.
+The two most recent IE security updates, MS05-038and MS05-052, include defense-in-depth improvements that help prevent malicious web pages from loading and manipulating ActiveX controls that were not meant to run in IE.
+Prior to MS05-038 and MS05-052, IE included two main security checks around whether an ActiveX control can load and be manipulated by a web page:.
+Only allow ActiveX controls to load if they are not in the registry-stored killbit list.
+Only allow loaded ActiveX controls to be manipulated if they have implemented IObjectSafety and therefore promised they can be safely scripted.
+MS05-038 strengthens the first security check by using standard Windows COM mechanisms to help decide whether an ActiveX control is valid.
+MS05-052 further strengthens this security check by removing legacy code that could be used to get around MS05-038.
+Furthermore, MS05-052 completes the IObjectSafety check earlier in the ActiveX loading process so that an ActiveX control is not fully loaded until it promises it is safe for scripting.
+As a side note, these fixes are in line with the ActiveX Opt-infeature we're shipping in IE7 to reduce IE's attack surface.
+While testingthese security updates we ensured that the most popular ActiveX controls continued to work, including Macromedia Flash, Sun Java, Apple Quicktime, Real Player, Windows Media Player and Adobe Reader.
+We do know of one compatibility problem, which prevents ActiveX controls from loading in IE.
+When a user has Vignette's Business Integration Studio installed, this application modifies COM registry keys now used by IE security checks.
+Vignette is aware of this problem and already has a solution available through their support web page.
+If you do not have Vignette's application installed and you still find that no ActiveX controls are loaded in IE, you can work around the problem by resetting the COM registry keys back to their original values as outlined in KB Article 896688.
+Otherwise, everything should work as expected.
+- Marc.

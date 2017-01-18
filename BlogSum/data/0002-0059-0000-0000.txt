@@ -1,0 +1,25 @@
+We received some good questions about how the JScript engine works in.
+What version of JScript is supported.
+The version of JScript included with IE6 is EcmaScript edition 3 compliant.
+I've seen some confusion recently with some even claiming that we do not support EcmaScript.
+In fact JScript, JavaScript and EcmaScript are all basically the same language with a different name.
+At one time Netscape used the name LiveScript before adopting the name JavaScript even though it was not related to Java.
+EcmaScript is the name for the standard recommendation for the language from the ECMA industry associat.
+Why is there a choice of scripting languages.
+The implementation of the document object model in Internet Explorer is separate from the scripting engines themselves.
+As a result you can use different languages such as JScript or VBScript using the language attribute of the Script tag.
+SCRIPT language= VBScript for example will invoke the VBScript engine.
+Support for the VBScript syntax has been popular with developers familiar with visual basic particularly in corporate environments.
+It's best not to confuse the language functionality with that of the Document Object Model (DOM) in IE.
+When we refer to the DOM we are talking about the ability to manipulate the HTML document with methods such as documentcreateElement whereas a JScript method is more language specific such as the indexOf method.
+See the references to see the different capabilities of DOM versus the JScript and VBScript langua.
+What is the default scripting language.
+The language will default to be JScript for the page unless otherwise specified.
+Once you have specified a language that will be the default language for the rest of the page unless you explicitly change it again.
+In general unless you have good reason to use specific capabilities of the languages I advise people to stick to just one script language on a page as it will avoid confusion, ease maintenance and also avoids the overhead of having two different script engines loaded.
+There was an interesting comment from Jim in Decemberon this blog where he asked if we support the Content-Script-Type header and meta element as described in the HTML 401 specification.
+This is good feedback and certainly something we may wish to get to in the future.
+However as no other browser implement this or implement multiple scripting languages at this time we will be concentrating on other more pressing issues with our support for standards in the foreseeable future.
+Hopefully this clarifies a little about out support for scripting engines.
+While we are on the topic it's also worth reminding people of a previous post on this blog on script debugging in IE.
+Thanks -Dave.

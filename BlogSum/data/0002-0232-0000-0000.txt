@@ -1,0 +1,25 @@
+Hi there.
+My name is Laurel Reitman and I'm a Lead Program Manager on the Internet Explorer team working on our Programming Model.
+I had the pleasure of attending the AJAX Experience May 10th-12th down in San Francisco.
+A big thanks to Ben Dion from Ajaxiancomfor hosting the conference.
+It was a great opportunity to sit down with developers who are building AJAX-style web sites as well as developers who are building tools to make it easier for others to build rich applications.
+I feel like I got some good insights into what they think of IE today, and what they d like to see in future versions.
+Particularly a big thanks to Alex Russellfrom Dojo, Brendan Eich from Mozilla, Stuart Hallowayfrom Relevance, Douglas Crockford Bill Scottfrom Yahoo, Glenn Vanderburg, Brent Ashley, Joe Walker, and many others for taking the time to sit down and chat with me to express their thoughts and feedback.
+I look forward to the continued dialog.
+One question on the top of everyone's mind is how to debug and get more information about what's going on with their AJAX-style applications.
+I wanted to point folks to some of the tools that are available today with Internet Explorer, many of which I mentioned at the conference.
+Phil wrote a great blog post, back in October 2004 that mentions some of the how to and tools to use to debug script in Internet Explorer.
+Another article to add to the list talks about how to debug Atlas applications in VS2005.
+Many of those tips transfer to AJAX-style applications in general.
+There is also a great whitepaperon how to debug code using Visual Studio that specifically calls out some troubleshooting scenarios.
+Another tool I mentioned at the conference was Nikhil Kothari's Web Development Helperthat brings script debugging into a browser extension.
+Nikhil is an architect on the Web Platform and Tools team at Microsoft (which delivers IIS, ASPNET and Visual Studio Web development tools) so he has a lot of firsthand experience debugging AJAX-Style applications.
+Additionally, as has been mentioned in a few other IE Blog posts, the IE team is working on a free developer toolbar.
+The latest version is available here.
+The toolbar includes a DOM explorer among many other cool features to make it easier to build and debug your web pages.
+Also several folks mentioned using vi and Emacs as their development environment.
+I d encourage you to take a look at the new Visual Web Developer 2005 Express Edition.
+It's a great tool for building and designing rich web applications and it's free.
+Last, but certainly not least, is Fiddlerwhich allows you to watch HTTP traffic, particularly useful in watching your XML-HTTP Requests.
+Happy Coding.
+-Laurel Edit: Corrected the spelling in Brendan Eich's name.

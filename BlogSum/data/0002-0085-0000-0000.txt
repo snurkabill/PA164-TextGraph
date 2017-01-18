@@ -1,0 +1,25 @@
+Hi, I'm Rob Franco, Lead Program Manager for IE Security.
+Today I want to focus on clearing up a few details about an important feature that we're calling Low-Rights IE .
+Low-Rights IE is one of several new features that we're working on to help keep users safe.
+It is a defense-in-depth feature, meant to back up and support the many other security features.
+First, while most IE7 security features will be available in IE7 for Windows XP SP2, Low-rights IE will only be available in Longhorn because it's based on the new Longhorn security features that make running without Administrator privileges an easy option for users ( User Account Protection ).
+When users run programs with limited user privileges, they are safer from attack than when they run with Administrator privileges because Windows can restrict the malicious code from taking damaging actions.
+We are using the same Longhorn security infrastructure to limit IE to just enough privileges to browse the web but not enough to modify user files or settings by default.
+As a result, even if a malicious site attacks a vulnerability in IE, the site's code won't have enough privileges to install software, copy files to Startup folder, or hijack the settings for the browser's homepage or search provider.
+Second, the primary goal of Low Rights IE is to restrict the impact of a security vulnerability while maintaining compatibility.
+Low-rights IE doesn't fix vulnerabilities, but it can limit the damage a vulnerability can do.
+In that way, it's like the Local Machine Zone Lockdown feature in XP SP2.
+That lockdown prevents cross domain vulnerabilities from installing malicious software on users machines.
+We expect Low-rights IE to protect users from other classes of vulnerabilities .
+I also want to point out two other scenarios that some people have confused with Low-rights IE.
+Low-rights IE does not prevent users from downloading and installing software that turns out to be malicious.
+Any programs that the user downloads and runs will be limited by User Account Protection, unless the user explicitly gives the program Administrator privileges.
+Microsoft and other software makers provide toolsto help protect against spyware downloads.
+Another issue to clarify is that Low-rights IE will not change IE security settings for ActiveX and script as the Enhanced Security Configuration for IE on Windows Server 2003 did.
+We are considering changes to some default security settings for IE, but that work is separate from Low-rights IE and will not impact the user experience in the way that ESC did for Windows Server 2003.
+Some websites and browser add-ons may expect users to run with Administrator privileges.
+Our goals are to be as secure and compatible as possible and we're doing work to help sites and add-ons continue to work as users expect.
+We're looking forward to feedback from web developers and add-on partners in Longhorn Beta 2 when low-rights and many other security features are first enabled in the software.
+I want to be clear that Longhorn and IE7 have many other facilities in addition to Low-rights IE for keeping users safe.
+I look forward to writing about more of them soon.
+We hope you will download the upcoming Betas to see more and provide feedback on all of our work.

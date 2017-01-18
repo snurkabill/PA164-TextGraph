@@ -1,0 +1,12 @@
+I'm really excited for my talk tomorrow here at Mix06.
+This conference feels more like a party than work.
+We're free from the blue-shirt uniform of normal conferences and I've tried to make my talk all content - no slides (ok, there are a few slides for folks who don't see the live show).
+I'm trying to dodge the late night party crowd until after my talk but I hear that Phoebe has been hanging out with Chico and James of the Debargefamily.
+During his keynote, Bill Gates teed us up to talk about Protected Mode, ActiveX Opt-in, Anti-Phishingand High Assurance SSL.
+I had the chance to show Bill the first version of Protected Mode last year and even though it wasn't very polished yet, he saw the potential to make the system safer.
+Today the version of Protected Mode we have helps protect the system but also is compatible with most sites and extensions.
+In my talk, we're going to look at why we're making IE safer and how to make your site work with the protections.
+I intend to cover questions I've heard on the blog before and you can post a question here today if you want me to cover it at the talk.
+After you get your dose of safety first, I expect you'll want to catch Chris talk about standards, Markus on the CSS changes in IE7 and Rich Turner will show you how to use Infocard.
+Hope to see you at my talk or here at the show.
+- Rob Franco.

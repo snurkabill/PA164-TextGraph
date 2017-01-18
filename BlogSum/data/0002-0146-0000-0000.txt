@@ -1,0 +1,12 @@
+Just a quick paste of a comment on the Microsoft Security Response Center blogaddressing the recent questions around the XSS issue we are investigating -.
+We've received some questions regarding a reported cross-site scripting (XSS) issue affecting Internet Explorer.
+Google Desktop was used in a proof of concept to demonstrate how, in some cases, this issue could allow an attacker to obtain sensitive information.
+This issue may be a bit confusing because it is not really an XSS issue.
+A better way to describe it might be to call it cross-site information disclosure .
+Our investigation indicates that this issue will have limited impact because an effective attack requires a website to expose sensitive information in a specific way.
+Basically, an attacker would need to find a way to make a response look like a Cascading Style Sheet, and that response would need to contain sensitive information.
+Google has done a good thing for the protection of our mutual customers by mitigating the issue on their servers.
+We think that is great.
+The underlying cross-site issue still exists within IE and I want to reassure you that we are investigating the root cause of this issue.
+Once the investigation is complete we'll take appropriate action for our customers which may include fixing this in a future security update for IE.
+- Jeremy Dallman.

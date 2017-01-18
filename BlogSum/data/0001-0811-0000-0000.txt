@@ -1,0 +1,29 @@
+Just left a great little workshop at the Perimeter Institute in Canada, organized by Justin Khoury.
+It was a focused but relaxed meeting, with plenty of opportunity for interaction; every speaker had at an hour and a half or two hours to speak, and discussion during the talks was actively encouraged.
+Not hard to figure out what people are interested in from looking over the talks: Robert Brandenberger: String Gas Cosmology.
+Proposed an alternative mechanism to inflation for generating cosmological perturbations.
+Me: Spontaneous Inflation and the Arrow of Time.
+(See a report on my talk by Yidun Wan, a graduate student who blogs at Road to Unification).
+Proposed a way to make inflation respectable in the context of a multiverse, but tried not to mention the anthropic principle or the landscape.
+Rocky Kolb: Acceleration from Cosmological Perturbations.
+Proposed an alternative to dark energy in the form of back-reaction from cosmological perturbations.
+Made fun of the anthropic principle.
+Frank Wilczek: Particle Physics and Dark Matter.
+Used the anthropic principle (but not the string-theory landscape) to make predictions about the density of dark-matter axions.
+Burt Ovrut: The Heterotic Standard Model.
+Proposed a very specific compactification of string theory that gives the Minimal Supersymmetric Standard Model (and nothing else) at low energies, with stabilized moduli and a (fine-tuned) positive cosmological contant.
+Made fun of the landscape.
+Neil Turok: Perturbations in the Cyclic-Universe Scenario.
+Proposed an alternative mechanism to inflation for generating cosmological perturbations.
+Made fun of the landscape.
+Paul Steinhardt: Ways to Calculate the Cosmological Constant, and Ways Not To.
+Proposed a dynamical mechanism for obtaining a small cosmological constant.
+Made fun of the landscape.
+The themes should be clear: cosmological perturbations, inflation and alternatives thereto, dark energy, the anthropic principle and the landscape.
+It's remarkable how polarizing the whole idea of the string-theory landscape and the anthropic principle really is.
+It's not a simple split of string theorists vs cosmologists vs everyone else; there are string theorists who love the lanscape, as well as ones who hate it, and likewise for cosmologists or anyone else paying attention.
+I've been arguing that the landscape/multiverse might very well exist and is interesting to think about, but that it's absolutely impossible right now (and might always be) to use it to calculate anything, or even to sensibly re-calibrate our notions of what is natural.
+I was happy to learn that Paul Steinhardt and Neil Turok are basically in agreement with this view, and are even writing a paper that attempts to make it crystal clear that the landscape does not correctly predict the cosmological constant ala Weinberg.
+In fact, if we're allowed to take it seriously at all, it makes quite a strong and vividly different prediction altogether: the cosmological constant should be quite large (many times the matter density, although presumably not at the Planck scale), and we should live in a single lonely galaxy in an empty universe dominated by vacuum energy.
+Their paper is in preparation, and I hope to say more about it when it comes out.
+In the meantime, there is serious and hard work to be done to understand the generation and evolution of cosmological perturbations, so it hasn't all devolved into a shouting match over whether talking about unobservable parts of the universe should count as science.

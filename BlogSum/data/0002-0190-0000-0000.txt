@@ -1,0 +1,16 @@
+As Rob pointed out in his last blog post on security and compatibility in IE7, one of the biggest challenges in software development is making the software secure and compatible at the same time.
+In IE7, we have many new security features that help protect users against various attacks by blocking certain content, but as a consequence, some web applications may no longer work as they used to.
+To help web developers and IT professional find such compatibility issues, IE7 offers an application compatibility logging feature.
+When the feature is enabled, the user is notified by an icon in the status bar.
+Thereafter, if one of the new security features blocks certain content, information about the security feature and the blocked content is created in the Windows Event Log.
+At the RSA conference, I talked to a customer who reported that one of his pages no longer worked correctly and showed a security warning.
+He was frustrated that he was seeing this warning that he did not see on IE6 SP1.
+He did not know what was causing this issue.
+We found that the warning was due to one of the new security features ( local machine zone lock down) first introduced in XPSP2.
+The Application compatibility toolkitis designed to help you diagnose such issues.
+When you use this toolkit while viewing your website/web application in IE7, the relevant event log entries are displayed in the toolkit to help you find compatibility issues.
+A new article on MSDN named Finding Security Compatibility Issues in Internet Explorer 7describes how to download and use the toolkit.
+- Tariq Edit:.
+This version of the toolkit has expired.
+Please refer to the blog post titled:.
+Microsoft Application Compatibility Toolkit (ACT) 50 Betafor the latest version details.

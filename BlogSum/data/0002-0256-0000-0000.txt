@@ -1,0 +1,20 @@
+For nearly a year now, I've been following a cool social browsing addon called StumbleUpon.
+As of last week, the StumbleUpon addon is available for Internet Explorer, and is one of my favorite addons.
+Here's how it works: As you browse the web, whenever you come across a page that is particular interesting to you, you can click the thumbs up button in your toolbar.
+And if you don't like a page, you can hit the thumbs down button.
+You don't have to rate every page, just the ones you feel strongly about, and clicking a button in the toolbar is a pretty simple way to give feedback.
+Now, as StumbleUpon learns what you like and don't like, it automatically matches you with clusters of users who have similar preferences.
+Then, as you browse, you can choose to stumble to pages that are preferred by other people who are similar to you.
+You don't have to share your votes with anyone else, but if you opt-in, you help other people find cool new sites too.
+Om Malik says that it is simply addictive , and many others agree.
+I find that StumbleUpon can recommend content to me that is more interesting and relevant to me than many of the other content filters like techmemeor digg.
+The addon was initially developed for Firefox, and quickly became popular.
+But a tool like StumbleUpon gets smarter when there are more people using it, and the team soon needed to extend the feature to the majority of Internet users who use Internet Explorer.
+Newscomand TechCrunchhave both commented on the business case for shipping on Internet Explorer, and that's easy enough to understand.
+But how difficult or expensive was it.
+Well, Justin from the StumbleUpon team told me, Our experience porting our Firefox addon to IE7 has been smooth and relatively painless - actually a lot easier than we expected.
+Within a month we built an IE7 toolbar implementing all desired functionality as well as a few features exclusive to the IE platform.
+Download itand try it out.
+Do you have a great add-on that you need help porting to Internet Explorer.
+Let us know how we can help you.
+Joshua Allen Technical Evangelist.

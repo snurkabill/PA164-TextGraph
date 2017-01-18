@@ -1,0 +1,16 @@
+Hey there, Peter here.
+I am really excited to tell you about the new horizontal scrolling feature in the Beta2 preview refresh as well as other enhancements we are working on for Page Zoom.
+We have received a lot of great comments and feedback from our customers about Page zoom and number of great suggestions.
+Thanks, we really appreciate it.
+We are working on how we can improve the Zooming of background images as well as how to stay centered when zooming on a centered page.
+The biggest feedback we got is that people wanted the page to re-layout upon zoom so they wouldn't see the horizontal scrollbars.
+We have been looking hard at providing an option to make this happen.
+Unfortunately, due to our schedule, it doesn't look like this feature is going to make it into the IE7 product.
+It is high on our list for next version.
+Now just because we cannot provide that particular feature in IE7 doesn't mean we aren't going to do any thing to make horizontal scrolling easier.
+The work we are doing to stay centered should help reduce how often you see the horizontal scrollbars, but we are also making it easier for you to horizontally scroll.
+If you try it out, you will discover that we now enable horizontal scrolling with Alt + Mouse wheel.
+We are aware that this causes the classic menu to appear/disappear when you lift up on the Alt key so we are planning on changing it to CTRL + Shift + Mouse wheel in the final release.
+I really hope this helps with your horizontal scrolling needs and enhances your browsing experience.
+Please let me know what you think.
+- Peter.

@@ -1,0 +1,20 @@
+From time to time, I've heard the question: "Why can IE only download two files from the same site simultaneously".
+Some more savvy users observe that this limitation probably makes sense in dialup cases where bandwidth is constrained or when lots of small files are being downloaded, since the TCP/IP slow start algorithmcomes into play.
+But for those of us lucky enough to be on broadband, this limitation can be annoying.
+If I want to download a large number of large files, I have to sit around and wait for them to complete, two-by-two.
+Why does IE behave this way while some other browsers do not.
+It turns out that this is a case where IE strictly follows the standards-- in this case, RFC2616, which covers HTTP11.
+As noted in the RFC: Clients that use persistent connections SHOULD limit the number of simultaneous connections that they maintain to a given server.
+A single-user client SHOULD NOT maintain more than 2 connections with any server or proxy.
+Saavy web developers can take this connection limit into account and deliver their data from multiple domains, since the browser will open up to two connections per domain.
+You can see this trick on pages like Office Online Templatesusing Microsoft Fiddleror another network monitoring tool.
+In this case, two domains (officemicrosoftcom and iofficemicrosoftcom) split the load, permitting up to four simultaneous connections.
+If you'd like to experiment with higher connection limits inside IE, have a look at http://supportmicrosoftcom/kb/183110.
+Note that changing this setting violates HTTP RFCs, and hence might impact compatibility with servers and proxies.
+-EricLaw PS:.
+Another web-performance tip:.
+When generating hyperlinks, always include a trailing slash if possible.
+For instance, navigating to http://msdnmicrosoftcom/ietakes one more roundtrip than http://msdnmicrosoftcom/ie/.
+When the browser navigates to the /ie url, the server merely sends down a 301 to the /ie/ url.
+Both links work, but the second version is faster.
+Updated title - 4/12/05.

@@ -1,0 +1,27 @@
+As usual, I'm later than everyone else, so I'm just now getting around to reading Freakonomics by Steven Leavitt and Stephen Dubner.
+The book grew out of an article for the New York Times Magazine by journalist Dubner about economist Leavitt.
+Leavitt (who is here at the University of Chicago) is a rising young star in the profession, who had previously garnered considerable publicity for his work showing the real reason behind the dramatic drop in crime rates during the 1990 s.
+It wasn't stricter enforcement, or a better economy, or innovative policing strategies; it was Roe v Wade Leavitt argues that the availability of abortions prevented a large number of childred from being born to mothers who didn't want them or were unable to take care of them, and that these at-risk kids are exactly the people likely to commit crimes as teenagers.
+The theme of the book, if there is one, is the attempt to tease out the counterintuitive structures of incentives and pressures that lay behind a wide variety of patterns in our daily lives.
+And there is, of course, a blog.
+But I was happy to see a mention, if only very briefly in passing, of an issue I've long wondered about: the relative safety of air travel vs automobiles.
+It's a well-worn piece of wisdom that, despite the potential for spectacular accidents, air travel is actually safer than car travel.
+I've never been quite sure how seriously to believe this claim, since it was never spelled out how safer was being defined.
+The facts are the following: many more people die in auto accidents each year in the United States (about 40,000) than in airplane crashes (less than 1,000).
+But that certainly doesn't answer the question by itself.
+People spend a lot less time in airplanes than in cars, on average.
+In fact, it turns out that your risk of death per hour is about the same in a car as in a plane.
+So, what's the answer.
+Does that mean that air travel and auto travel are about equally dangerous.
+No, of course not.
+Nobody plans their trips by saying I would like to spend x hours traveling today (At least, putting aside the infrequent trips we take purely for the pleasure of being in a moving vehicle).
+Rather, there is some place we want to go ie, some distance that must be traveled.
+So the correct figure of merit is the risk of dying per given trip that you d like to take, not per hour.
+Airplanes, of course, travel much more rapidly than cars do, so we spend less time in the plane than in a car for a given journey.
+In this case, the conventional wisdom is true air travel really is safer.
+Leavitt and Dubner don't actually mention that point, but it's a crucial feature of risk assessment, or for that matter all sorts of planning.
+When you are trying to weigh the merits of different ways of allocating resources (money, safety, or whatever), we always have to ask per what.
+That is to say, it's the rate of resource expenditure that matters, not the instantaneous value.
+If I want to spend $500 on a spiffy new espresso machine (and I do), I shouldn't simply say Wow, that's a lot of money I should carefully compare the cost of the machine plus coffee beans to whatever I d be paying in small installments at my local Starbucks over the life of the machine.
+It's the cost per cup of coffee that matters, not the one-shot price.
+Or am I just trying to talk myself into something.

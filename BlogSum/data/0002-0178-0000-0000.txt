@@ -1,0 +1,11 @@
+About once or twice a day, we get an email from someone asking why it is that IE 7 isn't detecting an RSS feed on a particular page that clearly has a feed associated with it.
+Usually, this means that there's an RSS or XML button somewhere on the page.
+The user can visually tell that there's a feed, so why can't IE.
+Well, feed auto-discovery works in a very simple way.
+Instead of trying guess the intent of the publisher and trying to figure out whether there's an little orange (or blue, or burnt sienna, for that matter) icon, IE will look for a specific "link" element in the HTML of the page that needs to be added by the publisher.
+We have published a short guide to what we're looking for here: http://blogsmsdncom/rssteam/articles/PublishersGuideaspx.
+So, if a page doesn't have that "link" element, then IE7 won't detect the feed.
+Most sites that have RSS or Atom support include this element, but some haven't gotten around to it yet.
+So, if you find one, be sure to send them the link to the guide above.
+Alternatively, if a site does have all the right information, please add the site to our feedback wiki, and we'll investigate it.
+Thanks, Sean.

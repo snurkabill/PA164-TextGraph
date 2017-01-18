@@ -1,0 +1,29 @@
+The IE and RSS team is going to be attending the Microsoft Professional Developers Conference (PDC)this year between September 13th and 16th in Los Angeles.
+This is Microsoft's premier conference for developers where you can learn from and connect with the development teams here.
+Visit the PDC siteto learn more.
+We're currently planning two talks for IE and R.
+Internet Explorer: What's New in IE7.
+Internet Explorer is an essential part of the Windows platform, providing functionality that both Web developers and Windows developers rely on for their solutions.
+Attend this session to hear about advances in the next version of Internet Explorer 7 for both Windows XP and Windows Vista.
+This includes changes around security, user experience, and developer features, detailing new capabilities coming in the beta 2 releases.
+Speaker: Chris Wilson Lead Program Manager of Internet Explorer Platform and Security.
+Session Level: 200.
+Track: Presentat.
+Windows Vista ("Longhorn"): Building RSS Enabled Applications.
+Windows Vista (formerly codename "Longhorn") adds support for RSS (Really Simple Syndication).
+The RSS functionality in Windows Vista is being designed to make it simple for end users to discover, view and subscribe to RSS feeds, as well as make it easier for developers to incorporate the rich capabilities of RSS into their applications.
+In addition, the RSS functionality includes Simple List Extensions, a set of extensions to RSS that can be used to enable Web sites to publish lists such as of photo albums, music playlists and top 10 lists as RSS feeds.
+Come see multiple examples of subscription-enabled applications built on the RSS APIs.
+Security safeguards are also explained.
+Speaker: Amar Gandhi Group Program Manager of RSS and Internet Explorer User Experience.
+Session Level: 300.
+Track: Data Systems.
+We're also looking at having a lunchtime session where we'll share some of what we have learnt on security the hard way over the last few years.
+We plan to have members of the team present throughout the conference and helping in the track lounges during the week.
+This is a great opportunity to meet members of the team and discuss progress on the browser as well as the new RSS platform support.
+If you haven't signed up for the PDC yet you will want to do so quickly as it is rapidly filling up.
+If you are attending the PDC please make a point of dropping by the sessions and track lounges and say hi to the team.
+We're also interested in knowing what you d like to hear about in the sessions as we pull the content together over the next month.
+Thanks -Dave PS.
+Although I d really like to be at the PDC this year I am not planning to be there pending the birth of my first child and infant care leave.
+I'm sure you will all be in very capable hands though and am looking forward to hearing about it.

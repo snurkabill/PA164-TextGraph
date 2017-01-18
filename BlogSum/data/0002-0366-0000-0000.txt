@@ -1,0 +1,27 @@
+MIX07is coming up in a week and a half and I wanted to provide an overview of the IE activities at the show.
+As most of you know, MIX is Microsoft's conference for Web designers, developers and decision-makers who live and work on the consumer Web.
+Last year at MIX06, Microsoft placed a lot of emphasis on Internet Explorer 7, showing off improvements in the rendering engine, the new RSS platform, and the new security features like Protected Mode and ActiveX opt-in.
+Internet Explorer 7 has now been in the market for approximately 6 months, doing great, and we're hard at work on the next release.
+This year, the focus of MIX07 is Silverlight, and creating rich interactive applications and media experiences for your customers.
+We've gathered input from customers for the next version of IE through formal research like user studies and surveys, and also at conferences, comments on the IE blog, and direct emails from you; we will continue to listen at MIX07.
+We will have more information to share about the next release in the future, but MIX07 is too early yet to discuss specifics.
+So what can you expect to hear from us at MIX this year.
+We've got 4 sessions specifically about Internet Explorer, including a presentation by one of our partners, Molly Holzschlag.
+Walter VonKoch, Molly and Cyra Richardson will focus on creating better experiences in Internet Explorer, by using RSS, CSS and creating fast AJAX applications.
+I will do a retrospective of IE7 and talk about lessons learned that we carry forward as we work on the next version.
+Specifically, the sessions are:.
+Making Money With RSS with Walter VonKoch.
+RSS is a great mechanism for connecting with your customers.
+Walter will show some great examples of how you can do that, and how you can extend the RSS platform to provide a richer data source for your customers.
+Thinking In CSS: How To Build Great Looking Websites with Molly Holzschlag.
+We're super excited to have Molly working with us at Microsoft, and just as excited that she's out in the real world evangelizing CSS and standards-based web development.
+How To Make AJAX Applications Scream On The Client with Cyra Richardson.
+What are the top 3 things that cause AJAX performance problems.
+Cyra has spent some time delving into this problem and has some suggestions that will help to increase the speed of your AJAX application.
+A great looking UI can be killed by poor performance, and Cyra will show us some common mistakes and easy ways to speed up your application.
+IE7: Past, Present and Future with Chris Wilson.
+I've been on the IE team since IE 20, so I know a bit about the ins and outs of Internet Explorer.
+In this session I'll be talking about the road from IE6 to IE7 the vision of the release, how we set priorities, and more importantly, how we deal with the challenge of serving 500 million users.
+There were many lessons learned, and I'll talk about how we'll take those lessons forward into future releases of Internet Explorer.
+Hope to see you there.
+Chris Wilson.

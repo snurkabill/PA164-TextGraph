@@ -1,0 +1,22 @@
+A researcher posted a vulnerability against IE6 yesterday that uses random input to create a heap overflowin a Direct Animation object.
+Our team is testing a security update right now to fix this overflow, but in the meantime you can keep your systems safe from this vulnerability by disabling ActiveX controls in the internet zone.
+If you're a desktop administrator responsible for a set of desktops, you can publish a more tactical fix by disabling the control.
+If you have the ability to set registry keys on user desktops, the following key will disable the vulnerable object: [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility\{D7A7D7C3-D47F-11D0-89D3-00A0C90833E6}] "Compatibility Flags"=dword:00000400.
+The fact that the research community found this bug is a credit to them, evidence of the continued creativity going into tools like HD Moore's metasploit.
+I admire their creativity but I do think a public disclosure is a missed opportunity to work together on the problem.
+Security researchers like Dan Kaminsky and Mark Litchfield want the same thing as the security engineering teams.
+Researchers want to find inventive new attacks and see their creations fixed elegantly by the security engineering teams.
+I welcome and challenge more researchers to come participate in the process, you can start with a mail to secure@microsoftcom.
+The good news in yesterday's disclosure is that IE7 is safe against this attack and many of the other recent attacks on IE6.
+The input of the security community had a deep impact on the security strategy for IE7.
+As we worked with researchers to strengthen the core of the IE7 codebase against threats, we also eliminated threats on the periphery by reducing the attack surface that we expose to malicious websites.
+Most notably, IE7 reduces attack surface by disabling most ActiveX controls on the system by default.
+We actually went a step further with Direct Animation control and effectively remove it when you install IE7.
+While we're reducing the attack surface from ActiveX, pragmatists will realize that ActiveX controls and other binary extensions are a part of client software for the foreseeable future.
+ActiveX controls are important and can be built just as safelyas any other client code.
+I'm in frequent contact with the engineering teams for the most commonly used active controls on the internet like Adobe Flash, Apple Quicktime, the RealPlayer, WMP, the Sun JRE and Adobe Acrobat.
+They are also working with the security research community.
+They are making the same type of investment's to strengthen their controls against attacks.
+Some developers will re-enable less commonly used controls for particular scenarios on some systems.
+Since the default for most ActiveX controls in IE7 is off, the value of an ActiveX vulnerability like the one reported yesterday will start to approach zero.
+Rob Franco Lead Program Manager.

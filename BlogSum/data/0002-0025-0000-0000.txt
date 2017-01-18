@@ -1,0 +1,16 @@
+If you're a developer hosting the WebBrowser control, you'll want to read Compatibility in Internet Explorer 6 for Windows XP Service Pack 2.
+This article has details about changes such  Local Machine Zone Lockd.
+Object Cach.
+MIME Handl.
+MIME Sniff.
+Network Protocol Lockd.
+Window Restricti.
+File Download Restricti.
+ActiveX Restricti.
+Pop-up Bloc.
+Zone Elevation Blo.
+Binary Behaviors If you're a website developer, then check out Fine-Tune Your Web Site for Windows XP Service Pack 2.
+It covers popup blocking, ActiveX controls, and new restrictions on browser windows.
+You may also want to read about Enhanced Browsing Security , part 5 of the Service Pack 2 Resource for IT Professionalsarticles.
+This article covers some of the same material as previous articles, but oriented to the IT Pro audience, including Group Policy details.
+- Bruce.

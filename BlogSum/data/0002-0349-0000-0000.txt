@@ -1,0 +1,19 @@
+Recently, I received an interesting customer question I thought I would share.
+A web developer presented me with the following scenario: his web application lets users create and manage a list of items, and this list is exposed as a feed so users can be updated when it changes.
+However, after the user deletes an item using the web application, that item is still present in the feed view of the RSS aggregator.
+Since the feed is supposed to correctly reflect the state of the user's item list, this was a problem.
+Unfortunately, the desired behavior doesn't quite work with established feed usage.
+A majority of feeds expose only a small number of most recent items and older items periodically get aged out.
+But you wouldn't want to miss posts from your favorite blog or news feed just because you went on vacation and those posts are no longer in a feed.
+This is why the Windows RSS Platform stores all the items until the user-controllable feed item storage limit is reached (200 items by default).
+Fortunately, I had good news for the customer there is a very simple solution to his problem.
+IE7 and the Windows RSS Platform fully support feeds that contain a complete ordered list of items .
+All you need to do to make your feed a list is add one simple extension under the channel node (or for Atom feeds, under the feed node): channel cf:treatAs xmlns:cf="http://wwwmicrosoftcom/schemas/rss/core/2005" list /cf:treatAs /channel.
+The treatAs extension is part of the Simple List Extensions (SLE).
+These are the feed extensions we designed with the exact purpose of exposing ordered lists of items in a feed, and made available to everyone under the Creative Commons license.
+SLE follow the feed extensions rules so they work in combination with other RSS extensions and the resulting feed can be read with any feed reader.
+You can find the full explanation with samples and pointers to live list feeds in one of our earlier posts on the RSS team blog here, or get a hands-on experience with the recently posted RSS lab at the MIX University.
+Needless to say, the customer was pretty happy with how easy this was.
+If you haven't looked at the SLE already, this might be a great time to do so.
+They might just be the perfect answer for your scenario.
+Miladin Pavlicic Senior Developer.
