@@ -50,6 +50,7 @@ public class Vertex {
             if(iteratedIndex == startingVertexIndex) {
                 return vertex;
             }
+            iteratedIndex++;
         }
         throw new IllegalStateException("No vertex was picked");
     }

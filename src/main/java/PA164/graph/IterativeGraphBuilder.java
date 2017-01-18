@@ -1,13 +1,15 @@
 package PA164.graph;
 
+import PA164.data.Sentence;
+
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class IterativeGraphBuilder {
 
-    public Graph run(List<String> allSentences) {
-        List<List<String>> wordMatrix = splitToWords(allSentences);
+    public Graph run(List<Sentence> sentenceList) {
+        List<List<String>> wordMatrix = mergeSentences(sentenceList);
         int maximumLength = getLongestSentence(wordMatrix);
         int allWords = wordMatrix.stream().mapToInt(List::size).sum();
         int batchWords = 0;
@@ -46,11 +48,12 @@ public class IterativeGraphBuilder {
         return max;
     }
 
-    private List<List<String>> splitToWords(List<String> allSentences) {
-        List<List<String>> wordMatrix = new ArrayList<>();
-        for (String sentence : allSentences) {
-            wordMatrix.add(Arrays.asList(sentence.split(" ")));
+    private List<List<String>> mergeSentences(List<Sentence> sentenceList) {
+        Collections.shuffle(sentenceList);
+        List<List<String>> words = new ArrayList<>();
+        for (Sentence sentence : sentenceList) {
+            words.add(sentence.getCleanedWordList());
         }
-        return wordMatrix;
+        return words;
     }
 }

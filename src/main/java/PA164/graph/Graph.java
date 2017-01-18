@@ -7,6 +7,10 @@ public class Graph {
 
     private Set<Vertex> vertices = new HashSet<>();
 
+    public Set<Vertex> getVertices() {
+        return vertices;
+    }
+
     public boolean tryAddNewBatchofWords(List<String> batch) {
         boolean wasAddedAtLeastsOne = false;
         for (String s : batch) {
@@ -55,6 +59,7 @@ public class Graph {
             if(iteratedIndex == startingVertexIndex) {
                 return vertex;
             }
+            iteratedIndex++;
         }
         throw new IllegalStateException("No vertex was picked for start");
     }
