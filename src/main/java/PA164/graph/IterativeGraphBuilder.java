@@ -6,16 +6,19 @@ import java.util.List;
 
 public class IterativeGraphBuilder {
 
-    public Graph<String> run(List<String> allSentences) {
+    public Graph run(List<String> allSentences) {
         List<List<String>> wordMatrix = splitToWords(allSentences);
         int maximumLength = getLongestSentence(wordMatrix);
         int allWords = wordMatrix.stream().mapToInt(List::size).sum();
         int batchWords = 0;
+        Graph textGraph = new Graph();
         for (int i = 0; i < maximumLength * wordMatrix.size() || batchWords != allWords; i++) {
             List<String> batch = createBatchOfWords(i, wordMatrix);
             batchWords += batch.size();
+            if(textGraph.tryAddNewBatchofWords(batch)) {
+                textGraph.generateNewEdges();
+            }
         }
-        GraphImpl<String> textGraph = new GraphImpl<>();
         return textGraph;
     }
 
@@ -24,7 +27,6 @@ public class IterativeGraphBuilder {
         for (int i = index; i >= 0; i--) {
             int x = index - i;
             int y = i;
-
             if(wordMatrix.size() > y) {
                 if(wordMatrix.get(y).size() > x) {
                     batch.add(wordMatrix.get(y).get(x));
